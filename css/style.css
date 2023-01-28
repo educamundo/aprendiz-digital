@@ -63,6 +63,7 @@ ul{
   list-style-type: none;
   line-height: 2;
   padding-left: 0;
+  margin: 0;
 }
 
 a{
@@ -92,10 +93,14 @@ a{
 }
 
 button{
-  background: #41f341;
+  background: #39AEC0;
   border: solid 1px transparent;
   padding: 2px 20px;
   border-radius: 3px;
+}
+
+label{
+  color: #132190;
 }
 
 form{
