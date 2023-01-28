@@ -72,10 +72,11 @@ a{
 }
 
 .principal{
-  background: #FF6CB5;
+  background: #132190;
   height: 40px;
   width: 100%;
   margin: 0 auto;
+  text-align: left;
 }
 
 .principal ul li a{
@@ -87,7 +88,7 @@ a{
 .principal li{
   display: inline-block;
   line-height: 2.5;
-  margin: 0 89px;
+  margin: 0 20px;
 }
 
 button{
