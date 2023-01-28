@@ -1,8 +1,8 @@
 function criarItemDeGaleria(src){
-  const myImage = document.createElement('img');
-  myImage.setAttribute('src', src)
+  const imagem = document.createElement('img');
+  imagem.setAttribute('src', src)
 
-  return myImage
+  return imagem
 
 }
 function criarQuebraDeLinha(){
@@ -17,18 +17,18 @@ function numeroPar(numero){
 function criarGaleria(){
 
   // Conceito de array e objetos
-  const pintores=[
-    {nome: "Vincent Van Gogh", src: 'img/nina.jpeg'},
-    {nome: "Tarsila", src: 'img/nina2.png'},
-    {nome: "Frida", src: 'img/nina3.jpg'},
-    {nome: "DaVinci", src: 'img/nina4.jpg'},
+  const imagensGaleria=[
+    {alt: "Nina1", src: 'img/nina.jpeg'},
+    {alt: "Nina2", src: 'img/nina2.png'},
+    {alt: "Nina3", src: 'img/nina3.jpg'},
+    {alt: "Nina4", src: 'img/nina4.jpg'},
   ]
 
   const galeria = document.querySelector("#galeria-principal")
 
-  for(let i = 0 ; i < pintores.length; i++){
-    const item = pintores[i];
-    const imagem = criarItemDeGaleria(item.src)
+  for(let i = 0 ; i < imagensGaleria.length; i++){
+    const item = imagensGaleria[i];
+    const imagem = criarItemDeGaleria(item.src, item.alt)
 
     if(numeroPar(i)){
       const quebraDelinha = criarQuebraDeLinha()
@@ -42,6 +42,5 @@ function criarGaleria(){
 
 criarGaleria()
 
-// table
-// anchor
-// lista
+// Passo 1: Selecionar um elemento
+
