@@ -6,13 +6,6 @@ body{
   margin: 0;
 }
 
-.metade{
-  max-width: 50%;
-}
-
-.pai{
-
-}
 
 h1{
   font-size: 60px;
@@ -111,4 +104,10 @@ form{
 table{
   color: #39AEC0;
   margin: 0 auto;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
