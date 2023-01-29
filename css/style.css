@@ -1,9 +1,16 @@
 body{
   text-align: center;
-  font-family: Open Sans, sans-serif;
-  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  /* background-color: white; */
+  /* background: rgb(34,193,195);
+background: linear-gradient(349deg, rgba(34,193,195,0.31976540616246496) 0%, rgba(247,246,120,0.4234068627450981) 100%);  */
+/* gradiente */
+
+background: rgb(34,193,195);
+background: linear-gradient(349deg, rgba(34,193,195,0.31976540616246496) 0%, rgba(249,248,179,0.35898109243697474) 100%);
   color: #FFFFFF;
   margin: 0;
+
 }
 
 
@@ -26,23 +33,27 @@ p{
   font-size: 20px;
   line-height: 1.5em;
   color: #132190;
+  
 }
 
 .titulo-verde{
   color: #04ff9f;
+ 
 }
 
 .titulo-vermelho{
+ 
   color: #FF9E9E;
 }
 
 .titulo-amarelo{
+  
   color: #FDB737;
 }
 
 .titulo-azul{
   color: #39AEC0;
-}
+ }
 
 section{
   width: 60%;
@@ -82,15 +93,18 @@ a{
 
 .principal ul li a{
   color: #FFF;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-weight: normal;
+  text-decoration-line: none; 
 }
 
 .principal li{
-  display: inline-block;
+   display: inline-block; 
   line-height: 2.5;
   margin: 0 20px;
 }
+
+
 
 button{
   background: #39AEC0;
