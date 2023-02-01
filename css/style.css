@@ -139,6 +139,8 @@ a {
 
 .lista ul li a {
   color: #2A0074;
+  
+  
 }
 
 
@@ -170,12 +172,28 @@ td {
   border-collapse: collapse;
 }
 
+/*seção brasileiras tech */
+.container-brasileiras-tech{
+  display: block;
+   
+}
+
+.titulo-brasileiras {
+  display: inline-block;
+  /* text-align: justify; */
+  width: 40%;
+  line-height: 1.5;
+  font-size: 40px;
+
+}
+
+/* Aqui é o conteiner do fale conosco */
 .container-fale {
   display: block;
 
 }
 
-.titulo-forms {
+.titulo-fale {
   display: inline-block;
   /* text-align: justify; */
   width: 40%;
