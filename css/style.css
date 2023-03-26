@@ -1,119 +1,215 @@
-body{
+body {
   text-align: center;
-  font-family: Open Sans, sans-serif;
-  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  /* background-color: white; */
+  /* background: rgb(34,193,195);
+background: linear-gradient(349deg, rgba(34,193,195,0.31976540616246496) 0%, rgba(247,246,120,0.4234068627450981) 100%);  */
+  /* gradiente */
+
+  background: rgb(34, 193, 195);
+  background: linear-gradient(349deg, rgba(34, 193, 195, 0.31976540616246496) 0%, rgba(249, 248, 179, 0.35898109243697474) 100%);
   color: #FFFFFF;
   margin: 0;
+
 }
 
+.banner {
+  background: url(../img/2-Ricardo-Borges.png);
+  background-size: cover;
 
-h1{
+  opacity: 89%;
+  height: 70vh;
+  /* height:90vh; */
+  text-align: left;
+  /* text-size-adjust: 10px; */
+  /* padding-top: 20rem; */
+  /* padding-left: 10rem; */
+
+  color: #FDB737;
+}
+
+.container {
+  padding-left: 100px;
+  padding-top: 10rem;
+}
+
+.texto-subtitulo {
+  text-size-adjust: 50px;
+  color: #FF9E9E;
+  /* box-sizing: border-box; */
+  /* color: #2A0074; */
+}
+
+.banner-subtitulo {
+  /* align-items: left; */
+  /* background-color: #FFFFFF; */
+
+  border-radius: 4px;
+
+}
+
+h1 {
   font-size: 60px;
   font-weight: 300;
 }
 
-h2{
+h2 {
   color: #2A0074;
   font-size: 40px;
 }
 
-h3{
+h3 {
   font-size: 22px;
   font-style: italic;
 }
 
-p{
+p {
   font-size: 20px;
   line-height: 1.5em;
   color: #132190;
+
 }
 
-.titulo-verde{
+.titulo-verde {
   color: #04ff9f;
 }
 
-.titulo-vermelho{
+.titulo-vermelho {
   color: #FF9E9E;
 }
 
-.titulo-amarelo{
+.titulo-topo-amarelo {
   color: #FDB737;
 }
 
-.titulo-azul{
+.titulo-azul {
   color: #39AEC0;
 }
 
-section{
+section {
   width: 60%;
   margin: 0 auto;
 }
 
-section section{
+section section {
   width: 100%;
 }
 
-img{
+img {
   width: 300px;
   height: 300px;
   margin: 2px;
 }
 
-ul{
+ul {
   list-style-type: none;
   line-height: 2;
   padding-left: 0;
   margin: 0;
 }
 
-a{
+a {
   text-decoration: none;
-  color: #99FFFF;
+  /* color: #99FFFF; */
+  color: #39AEC0;
   font-weight: 700;
 }
 
-.principal{
-  background: #132190;
+.principal {
+  /* background: #FDB737; */
   height: 40px;
   width: 100%;
   margin: 0 auto;
-  text-align: left;
+  text-align: right;
 }
 
-.principal ul li a{
-  color: #FFF;
-  text-decoration: underline;
+.principal ul li a {
+  color: #2A0074;
+  /* text-decoration: underline; */
   font-weight: normal;
+  text-decoration-line: none;
+
 }
 
-.principal li{
+.principal li {
   display: inline-block;
   line-height: 2.5;
   margin: 0 20px;
 }
 
-button{
+.lista ul li a {
+  color: #2A0074;
+  
+  
+}
+
+
+button {
   background: #39AEC0;
   border: solid 1px transparent;
   padding: 2px 20px;
   border-radius: 3px;
 }
 
-label{
+label {
   color: #132190;
 }
 
-form{
+form {
   margin-bottom: 30px;
 }
 
-table{
+table {
   color: #39AEC0;
   margin: 0 auto;
   width: 100%;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
+}
+
+/*seção brasileiras tech */
+.container-brasileiras-tech{
+  display: block;
+   
+}
+
+.titulo-brasileiras {
+  display: inline-block;
+  /* text-align: justify; */
+  width: 40%;
+  line-height: 1.5;
+  font-size: 40px;
+
+}
+
+/* Aqui é o conteiner do fale conosco */
+.container-fale {
+  display: block;
+
+}
+
+.titulo-fale {
+  display: inline-block;
+  /* text-align: justify; */
+  width: 40%;
+  line-height: 1.5;
+  font-size: 40px;
+
+}
+
+
+.forms {
+
+  display: inline-block;
+  box-sizing: border-box;
+  width: 40%;
+  line-height: 1.6;
+  text-align: left;
+  /* margin: 3rem; */
+  padding-left: 10rem;
 }
