@@ -1,0 +1,135 @@
+body {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(
+            349deg,
+            rgba(34, 193, 195, 0.31976540616246496) 0%,
+            rgba(249, 248, 179, 0.35898109243697474) 100%
+    );
+    color: #ffffff;
+    margin: 0;
+}
+
+.banner {
+    background: url("https://github.com/camilapessoa/jovem-aprendiz/blob/master/img/2-Ricardo-Borges2.png?raw=true");
+    background-size: cover;
+    height: 70vh;
+    text-align: left;
+    color: #fdb737;
+}
+
+.container {
+    padding-left: 100px;
+    padding-top: 10rem;
+}
+
+.texto-subtitulo {
+    text-size-adjust: 50px;
+    color: #ff9e9e;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+h2 {
+    color: #2a0074;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 22px;
+    font-style: italic;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #132190;
+}
+
+.titulo-azul {
+    color: #39aec0;
+}
+
+section {
+    width: 60%;
+    margin: 0 auto;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin: 2px;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 2;
+    padding-left: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #39aec0;
+    font-weight: 700;
+}
+
+.principal {
+    height: 40px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.principal ul li a {
+    color: #2a0074;
+    font-weight: normal;
+    text-decoration-line: none;
+}
+
+.principal li {
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 20px;
+}
+
+table {
+    color: #39aec0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.titulo-fale {
+    display: inline-block;
+    width: 40%;
+    line-height: 1.5;
+    font-size: 40px;
+}
+
+.forms {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 40%;
+    line-height: 1.6;
+    text-align: left;
+    padding-left: 10rem;
+    color: rgb(219, 20, 60, 0.5);
+}
+
+button {
+    background: #39aec0;
+    border: solid 1px transparent;
+    padding: 2px 20px;
+    border-radius: 3px;
+}

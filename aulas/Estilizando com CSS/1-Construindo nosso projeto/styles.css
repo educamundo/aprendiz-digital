@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(
+            349deg,
+            rgba(34, 193, 195, 0.31976540616246496) 0%,
+            rgba(249, 248, 179, 0.35898109243697474) 100%
+    );
+    color: #ffffff;
+    margin: 0;
+}
+
+.banner {
+    background: url("https://github.com/camilapessoa/jovem-aprendiz/blob/master/img/2-Ricardo-Borges2.png?raw=true");
+    background-size: cover;
+    height: 70vh;
+    text-align: left;
+    color: #fdb737;
+}
+
+.container {
+    padding-left: 100px;
+    padding-top: 10rem;
+}
+
+.texto-subtitulo {
+    text-size-adjust: 50px;
+    color: #ff9e9e;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+h2 {
+    color: #2a0074;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 22px;
+    font-style: italic;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #132190;
+}
+
+.titulo-azul {
+    color: #39aec0;
+}
