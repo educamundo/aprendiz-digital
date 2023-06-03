@@ -1,19 +1,23 @@
 body {
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: rgb(34, 193, 195);
-  background: linear-gradient(349deg, rgba(34, 193, 195, 0.31976540616246496) 0%, rgba(249, 248, 179, 0.35898109243697474) 100%);
-  color: #FFFFFF;
+  background: linear-gradient(
+          349deg,
+          rgba(34, 193, 195, 0.31976540616246496) 0%,
+          rgba(249, 248, 179, 0.35898109243697474) 100%
+  );
+  color: #ffffff;
   margin: 0;
 }
 
 .banner {
-  background: url(../img/2-Ricardo-Borges.png);
+  background: url("https://github.com/camilapessoa/jovem-aprendiz/blob/master/img/2-Ricardo-Borges2.png?raw=true");
   background-size: cover;
   opacity: 89%;
   height: 70vh;
   text-align: left;
-  color: #FDB737;
+  color: #fdb737;
 }
 
 .container {
@@ -23,7 +27,7 @@ body {
 
 .texto-subtitulo {
   text-size-adjust: 50px;
-  color: #FF9E9E;
+  color: #ff9e9e;
 }
 
 h1 {
@@ -32,7 +36,7 @@ h1 {
 }
 
 h2 {
-  color: #2A0074;
+  color: #2a0074;
   font-size: 40px;
 }
 
@@ -45,7 +49,6 @@ p {
   font-size: 20px;
   line-height: 1.5em;
   color: #132190;
-
 }
 
 .titulo-verde {
@@ -53,15 +56,15 @@ p {
 }
 
 .titulo-vermelho {
-  color: #FF9E9E;
+  color: #ff9e9e;
 }
 
 .titulo-topo-amarelo {
-  color: #FDB737;
+  color: #fdb737;
 }
 
 .titulo-azul {
-  color: #39AEC0;
+  color: #39aec0;
 }
 
 section {
@@ -88,7 +91,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #39AEC0;
+  color: #39aec0;
   font-weight: 700;
 }
 
@@ -100,10 +103,9 @@ a {
 }
 
 .principal ul li a {
-  color: #2A0074;
+  color: #2a0074;
   font-weight: normal;
   text-decoration-line: none;
-
 }
 
 .principal li {
@@ -113,11 +115,11 @@ a {
 }
 
 .lista ul li a {
-  color: #2A0074;
+  color: #2a0074;
 }
 
 button {
-  background: #39AEC0;
+  background: #39aec0;
   border: solid 1px transparent;
   padding: 2px 20px;
   border-radius: 3px;
@@ -132,7 +134,7 @@ form {
 }
 
 table {
-  color: #39AEC0;
+  color: #39aec0;
   margin: 0 auto;
   width: 100%;
 }
@@ -145,7 +147,7 @@ td {
 }
 
 /*seção brasileiras tech */
-.container-brasileiras-tech{
+.container-brasileiras-tech {
   display: block;
 }
 
