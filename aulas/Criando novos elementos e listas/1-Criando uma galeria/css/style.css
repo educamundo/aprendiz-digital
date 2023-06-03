@@ -91,13 +91,11 @@ ul {
 
 a {
   text-decoration: none;
-  /* color: #99FFFF; */
   color: #39aec0;
   font-weight: 700;
 }
 
 .principal {
-  /* background: #FDB737; */
   height: 40px;
   width: 100%;
   margin: 0 auto;
@@ -106,7 +104,6 @@ a {
 
 .principal ul li a {
   color: #2a0074;
-  /* text-decoration: underline; */
   font-weight: normal;
   text-decoration-line: none;
 }
@@ -156,7 +153,6 @@ td {
 
 .titulo-brasileiras {
   display: inline-block;
-  /* text-align: justify; */
   width: 40%;
   line-height: 1.5;
   font-size: 40px;
@@ -169,7 +165,6 @@ td {
 
 .titulo-fale {
   display: inline-block;
-  /* text-align: justify; */
   width: 40%;
   line-height: 1.5;
   font-size: 40px;
@@ -181,6 +176,5 @@ td {
   width: 40%;
   line-height: 1.6;
   text-align: left;
-  /* margin: 3rem; */
   padding-left: 10rem;
 }
